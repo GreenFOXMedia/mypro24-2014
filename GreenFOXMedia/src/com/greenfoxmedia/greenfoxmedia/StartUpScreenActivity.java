@@ -54,7 +54,7 @@ public class StartUpScreenActivity extends ActionBarActivity {
 					
 					@Override
 					public void onFinish() {
-						startActivity(new Intent(getApplicationContext(), LoginScreenActivity.class));
+						startActivity(new Intent(getApplicationContext(), LoginScreenActivity.class))   ;
 					}
 				};
 				startActivity.start();
